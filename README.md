@@ -34,3 +34,13 @@ Para executar os testes das regras do quiz:
 dart test
 ```
 
+## Capturas de tela
+
+Execução do quiz no terminal, incluindo perguntas, validação de respostas e resultado final.
+
+![Início do quiz](quiz_historia_brasil/assets/quiz-inicio.png)
+
+![Validação de respostas](quiz_historia_brasil/assets/quiz-validacao.png)
+
+![Resultado e nova partida](quiz_historia_brasil/assets/quiz-final.png)
+
