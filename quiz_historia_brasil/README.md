@@ -32,3 +32,4 @@ Para executar os testes das regras do quiz:
 ```bash
 dart test
 ```
+
