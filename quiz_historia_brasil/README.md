@@ -24,6 +24,7 @@ Exemplo de pergunta: **Em que ano o Brasil declarou sua Independência de Portug
 Na pasta do projeto, execute:
 
 ```bash
+cd quiz_historia_brasil
 dart run
 ```
 
