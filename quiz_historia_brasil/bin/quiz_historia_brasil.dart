@@ -16,7 +16,7 @@ String readValidAnswer() {
     stdout.write('Sua resposta (A, B, C ou D): ');
     final answer = normalizeAnswer(stdin.readLineSync());
     if (isValidAnswer(answer)) return answer;
-    print('Resposta invalida. Digite apenas A, B, C ou D.');
+    print('Resposta inválida. Digite apenas A, B, C ou D.');
   }
 }
 
@@ -26,7 +26,7 @@ bool wantsToPlayAgain() {
     final answer = normalizeAnswer(stdin.readLineSync());
     if (answer == 'S') return true;
     if (answer == 'N') return false;
-    print('Resposta invalida. Digite S para sim ou N para nao.');
+    print('Resposta inválida. Digite S para sim ou N para não.');
   }
 }
 
@@ -59,16 +59,16 @@ void playQuiz(String playerName) {
   }
 
   print('\nFim do quiz, $playerName!');
-  print('Sua pontuacao: $score de ${questions.length} perguntas corretas.');
+  print('Sua pontuação: $score de ${questions.length} perguntas corretas.');
   print(scoreMessage(score, questions.length));
 }
 
 void main() {
   print('========================================');
-  print('       QUIZ: HISTORIA DO BRASIL');
+  print('       QUIZ: HISTÓRIA DO BRASIL');
   print('========================================');
   print(
-    'Boas-vindas! Teste seus conhecimentos sobre momentos importantes do Brasil.\n',
+    'Boas-vindas! Teste seus conhecimentos sobre momentos importantes da história do Brasil.\n',
   );
 
   final playerName = readPlayerName();
@@ -76,5 +76,5 @@ void main() {
     playQuiz(playerName);
   } while (wantsToPlayAgain());
 
-  print('\nObrigado por jogar, $playerName. Ate a proxima!');
+  print('\nObrigado por jogar, $playerName. Até a próxima!');
 }

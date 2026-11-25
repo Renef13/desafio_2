@@ -1,4 +1,4 @@
-# Quiz: Historia do Brasil
+# Quiz: História do Brasil
 
 Jogo de perguntas e respostas executado no terminal, criado para o **Desafio 2 - Meu Quiz** da trilha de **Desenvolvimento Mobile**.
 
@@ -9,15 +9,15 @@ Jogo de perguntas e respostas executado no terminal, criado para o **Desafio 2 -
 
 ## Sobre o quiz
 
-O jogador informa seu nome e responde seis perguntas de multipla escolha sobre a Historia do Brasil. As alternativas vao de A a D; o programa aceita letras maiusculas ou minusculas, avisa quando a resposta esta incorreta e mostra a alternativa correta. Ao final, apresenta a pontuacao e uma mensagem de acordo com o desempenho.
+O jogador informa seu nome e responde seis perguntas de múltipla escolha sobre a História do Brasil. As alternativas vão de A a D; o programa aceita letras maiúsculas ou minúsculas, avisa quando a resposta está incorreta e mostra a alternativa correta. Ao final, apresenta a pontuação e uma mensagem de acordo com o desempenho.
 
-Exemplo de pergunta: **Em que ano o Brasil declarou sua Independencia de Portugal?**
+Exemplo de pergunta: **Em que ano o Brasil declarou sua Independência de Portugal?**
 
 ## Tecnologias utilizadas
 
 - Dart
 - `dart:io` para ler dados digitados com `stdin.readLineSync()`
-- Listas, repeticao `for`, condicionais e funcoes
+- Listas, repetição `for`, condicionais e funções
 
 ## Como executar
 
